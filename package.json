@@ -1,0 +1,48 @@
+{
+  "name": "mathball-docs",
+  "version": "0.2.0",
+  "description": "A npm package for competitive programming in JavaScript",
+  "keywords": [
+    "competitive-programming",
+    "computer-science",
+    "algorithms",
+    "data-structures",
+    "javascript",
+    "mathematical-utilities"
+  ],
+  "homepage": "https://pbiswas101.github.io/Mathball-Docs/",
+  "dependencies": {
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-scripts": "2.1.5"
+	},
+	"devDependencies": {
+    "gh-pages": "^2.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pbiswas101/Mathball-Docs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pbiswas101/Mathball-Docs/issues"
+  },
+  "author": "Priyabrata Biswas",
+  "license": "MIT"
+}
