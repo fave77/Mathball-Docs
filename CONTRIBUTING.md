@@ -6,7 +6,7 @@ Happy Contributing :slightly_smiling_face:
 
 ## :mag: Project Architecture
 
-![](https://github.com/pbiswas101/Mathball-Docs/blob/master/assets/project_architecture.png)
+![](https://github.com/pbiswas101/Mathball-Docs/blob/master/assets/project-architecture.png)
 
 > NOTE: Do not make a PR on `gh-pages` directly:heavy_exclamation_mark:
 
