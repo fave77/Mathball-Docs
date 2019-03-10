@@ -15,7 +15,7 @@ class MainContent extends Component {
           JavaScript was never built while keeping competitive coding in mind; let us all agree on that. Back in 1995, Brendan Eich developed JavaScript only for adding interactivity to web pages like handling a mouse click. Today, we can build servers, games, mobile apps, IoT apps and even machine learning in the browser is possible with JavaScript.
           </p>
           <blockquote>
-          "Any application that can be written in JavaScript, will eventually be written in JavaScript." -- Atwood's Law.
+          Any application that can be written in JavaScript, will eventually be written in JavaScript. -- Atwood's Law
           </blockquote>
           <p>Hence, I believe maybe its time for people who are well versed with this particular language to finally consider using it in the realm of competitive programming as well.</p>
         </div>
