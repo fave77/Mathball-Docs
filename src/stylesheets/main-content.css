@@ -1,0 +1,36 @@
+.main-content{
+  margin-top: 2em;
+  font-size: 2.5vmin;
+}
+.main-content h4 {
+  color: #d9703f;
+  font-size: 4vmin;
+}
+.main-content p {
+  font-size: 2.5vmin;
+}
+.sub-content {
+  padding: 3vmin;
+}
+blockquote{
+  border-left: 5px solid grey;
+  color: grey;
+}
+.card-text a{
+  color: #d9703f;
+  text-decoration: none;
+}
+.card-text a:hover {
+  color: black;
+}
+.features {
+  background-color: #e2e2e2;
+}
+.features-link {
+  color: black;
+}
+.features-link:hover{
+  color:  grey;
+  text-decoration: none;
+}
+/*main-content media queries */

@@ -1,0 +1,80 @@
+/*Header.js styles*/
+.header-container{
+  background-color: black;
+  color: #ccc;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+.header-container h1 {
+  color:  #d9703f;
+}
+.Wrapper {
+  margin: 3em;
+  display: inline-block;
+  font-size: 0.9em;
+}
+.Wrapper .start {
+  cursor: pointer;
+  background-color: #d9703f;
+  color: #ccc;
+  text-decoration: none;
+  padding: 20px 40px 20px 40px;
+  border-radius: 4px;
+}
+.Wrapper a.start:hover {
+  color: #d9703f;
+  background-color: white;
+}
+.Wrapper .tutorial{
+  cursor:pointer;
+  text-decoration: none;
+  padding: 20px 40px 20px 40px;
+  color: #d9703f;
+}
+.Wrapper a.tutorial:hover{
+  color: #ccc;
+}
+/*header media queries*/
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .header-container h1{
+    font-size: 1.2em;
+  }
+  .header-container p {
+    font-size: 1em
+  }
+  .Wrapper a.start , a.tutorial {
+    font-size: 1em;
+    padding: 15px 25px 15px 25px;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .header-container h1{
+    font-size: 1em;
+  }
+  .header-container p {
+    font-size: 0.8em
+  }
+  .Wrapper a.start , a.tutorial {
+    font-size: 0.8em;
+    padding: 15px 25px 15px 25px;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .header-container h1{
+    font-size: 0.8em;
+  }
+  .header-container p {
+    font-size: 0.6em
+  }
+  .Wrapper a.start , a.tutorial {
+    font-size: 0.6em;
+    padding: 10px 20px 10px 20px;
+  }
+}

@@ -1,0 +1,41 @@
+.footer-container {
+  border-top: 1px solid #ccc;
+  text-align: left;
+  background-color: black;
+  color: white;
+  padding: 2em 0em 2em 2em;
+}
+.footer-links a{
+  padding-right: 2em;
+  font-size: 1.2em;
+  color: #d9703f;
+  font-weight: bold;
+  margin-top: 1em;
+}
+.para-links {
+  font-size: 1.2em;
+  margin-top: 1em;
+}
+.para-links a{
+  color: #d9703f;
+}
+.para-links p {
+  margin: 1px;
+}
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .footer-links a, .para-links p{
+    font-size: 0.8em;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .footer-links a, .para-links p{
+    font-size: 0.6em;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .footer-links a, .para-links p{
+    font-size: 0.4em;
+  }
+}
