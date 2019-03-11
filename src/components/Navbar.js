@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import logo from '../logo.png';
-import '../stylesheets/navbar.css';
+import React, { Component } from "react";
+import logo from "../logo.png";
+import "../stylesheets/navbar.css";
 
 const styles= {
   searchBar: {
