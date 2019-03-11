@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import '../stylesheets/main-content.css';
+import React, { Component } from "react";
+import "../stylesheets/main-content.css";
 
 class MainContent extends Component {
   render() {
