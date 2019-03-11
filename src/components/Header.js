@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import logo from '../logo.png';
-import '../stylesheets/header.css';
-import '../stylesheets/App.css';
+import React, { Component } from "react";
+import logo from "../logo.png";
+import "../stylesheets/header.css";
+import "../stylesheets/App.css";
 
 class Header extends Component {
   render() {
