@@ -30,3 +30,21 @@
     transform: rotate(360deg);
   }
 }
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .App-logo{
+    height: 20vmin;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .App-logo {
+    height: 20vmin;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .App-logo {
+    height: 20vmin;
+  }
+}

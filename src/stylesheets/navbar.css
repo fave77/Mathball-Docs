@@ -1,0 +1,41 @@
+/*Navbar styles*/
+.Header-App-logo {
+  width: 5vmin;
+  height: 5vmin;
+}
+.navbar-dark .navbar-brand {
+  font-size: 1.5em;
+  margin-left: 0.3em;
+  color: #d9703f;
+}
+.navbar-collapse {
+  margin-top: 10px;
+}
+.navbar-dark .navbar-nav .nav-link {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  font-size: 2.1vmin;
+}
+.navbar-dark .navbar-toggler {
+  border-color: transparent;
+}
+
+/*navbar media queries*/
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+
+}
+
+@media all and (max-width: 480px) {
+  .Header-App-logo {
+    width: 5vmin;
+    height: 5vmin;
+  }
+  .navbar-dark .navbar-toggler {
+    font-size: 0.6em;
+  }
+}
