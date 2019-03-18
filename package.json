@@ -1,6 +1,6 @@
 {
   "name": "mathball-docs",
-  "version": "0.2.0",
+  "version": "0.3.1",
   "description": "A npm package for competitive programming in JavaScript",
   "keywords": [
     "competitive-programming",
