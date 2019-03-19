@@ -10,7 +10,7 @@ const styles= {
     width: "2.375rem",
     height: "2.375rem",
     lineHeight: "2.375rem",
-    textAlign: "center",8
+    textAlign: "center",
     pointerEvents: "none",
     color: "#aaa",
   },
