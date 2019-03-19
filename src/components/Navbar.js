@@ -54,7 +54,7 @@ class Navbar extends Component {
     </ul>
     <ul className = "navbar-nav mr-auto justify-content-end">
       <li className = "nav-item">
-        <a className = "nav-link" href="#Version"> Version </a>
+        <a className = "nav-link" href="#Version"> v0.3.1 </a>
       </li>
       <li className = "nav-item">
         <a className = "nav-link" href="#Languages"> Languages </a>
