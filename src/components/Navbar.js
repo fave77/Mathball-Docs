@@ -10,7 +10,7 @@ const styles= {
     width: "2.375rem",
     height: "2.375rem",
     lineHeight: "2.375rem",
-    textAlign: "center",
+    textAlign: "center",8
     pointerEvents: "none",
     color: "#aaa",
   },
@@ -54,7 +54,7 @@ class Navbar extends Component {
     </ul>
     <ul className = "navbar-nav mr-auto justify-content-end">
       <li className = "nav-item">
-        <a className = "nav-link" href="#Version"> 0.3.1 </a>
+        <a className = "nav-link" href="#Version"> v0.3.1 </a>
       </li>
       <li className = "nav-item">
         <a className = "nav-link" href="#Languages"> Languages </a>
