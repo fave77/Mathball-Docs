@@ -16,6 +16,12 @@
   font-size: 1.2em;
   margin-top: 1em;
 }
+
+.container-fluid {
+  text-align: center;
+}
+
+
 .para-links a{
   color: #d9703f;
 }
