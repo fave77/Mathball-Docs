@@ -5,6 +5,9 @@
   color: white;
   padding: 2em 0em 2em 2em;
 }
+.container-fluid {
+  text-align: center;
+}
 .footer-links a{
   padding-right: 2em;
   font-size: 1.2em;
