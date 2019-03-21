@@ -38,7 +38,7 @@ class Navbar extends Component {
             <a className = "nav-link" href="#Tutorial"> Tutorial </a>
           </li>
           <li className = "nav-item">
-            <a className = "nav-link" href="#Blog"> Blog </a>
+            <a className = "nav-link" href="https://medium.freecodecamp.org/how-to-get-started-with-competitive-programming-in-javascript-76ad2e760efe"> Blog </a>
           </li>
           <li className = "nav-item">
             <a className = "nav-link" href="#Community"> Community </a>
