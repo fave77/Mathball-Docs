@@ -16,6 +16,9 @@ blockquote{
   border-left: 5px solid grey;
   color: grey;
 }
+.card{
+  height: 270px;
+}
 .card-text a{
   color: #d9703f;
   text-decoration: none;
