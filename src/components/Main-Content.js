@@ -88,12 +88,12 @@ class MainContent extends Component {
             </div>
         <div class="card-body">
         <p class="card-text">
-          <a href = "https://github.com/pbiswas101/Mathball/blob/master/src/PriorityQueue/index.js" target = "_blank" rel = "noreferrer noopener">Priority Queue</a><br/>
-          <a href = "https://github.com/pbiswas101/Mathball/blob/master/src/PriorityQueue/index.js" target = "_blank" rel = "noreferrer noopener">Matrix</a>
+          <a href = "https://github.com/pbiswas101/Mathball/tree/master/    docs" target = "_blank" rel = "noreferrer noopener">Priority Queue</a><br/>
+          <a href = "https://github.com/pbiswas101/Mathball/tree/master/    docs" target = "_blank" rel = "noreferrer noopener">Matrix</a>
           <br/>
-       <a href = "https://github.com/pbiswas101/Mathball/blob/master/src/PriorityQueue/index.js" target = "_blank" rel = "noreferrer noopener">Stack</a><br/>
-	  <a href = "https://github.com/pbiswas101/Mathball/blob/master/src/PriorityQueue/index.js" target = "_blank" rel = "noreferrer noopener">Graph</a><br/>
-	  <a href = "https://github.com/pbiswas101/Mathball/blob/master/src/PriorityQueue/index.js" target = "_blank" rel = "noreferrer noopener">Binary Tree</a><br/>
+       <a href = "https://github.com/pbiswas101/Mathball/tree/master/    docs" target = "_blank" rel = "noreferrer noopener">Stack</a><br/>
+	  <a href = "https://github.com/pbiswas101/Mathball/tree/master/    docs" target = "_blank" rel = "noreferrer noopener">Graph</a><br/>
+	  <a href = "https://github.com/pbiswas101/Mathball/tree/master/    docs" target = "_blank" rel = "noreferrer noopener">Binary Tree</a><br/>
         </p>
 	<a href="#Features Page" target = "_blank" rel = "noreferrer noopener" class="features-link">See all Data Structures <i class="fas fa-angle-right"></i></a>
       </div>
