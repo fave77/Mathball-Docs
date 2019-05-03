@@ -23,78 +23,64 @@ class MainContent extends Component {
         <h4 style = {{textAlign: "center"}}>Features</h4>
         <div className = "features row">
 
-          <div className = "sub-content  col-lg-4 col-md-4 col-sm-12">
+          <div className = "sub-content  col-lg-6 col-md-6 col-sm-12">
           <div class="card">
               <div class="card-header">
-                <b>Number Checkers</b>
+                <b>Numbers&#39; Problems</b>
                 </div>
             <div class="card-body">
             <p class="card-text">
-              <a href = "https://github.com/pbiswas101/Mathball/blob/master/src/armstrong/index.js" target = "_blank" rel = "noreferrer noopener">Armstrong Number</a><br/>
-              <a href = "https://github.com/pbiswas101/Mathball/blob/master/src/automorphic/index.js" target = "_blank" rel = "noreferrer noopener">Automorphic Number</a><br/>
-              <a href = "https://github.com/pbiswas101/Mathball/blob/master/src/carmichael/index.js" target = "_blank" rel = "noreferrer noopener">Carmichael Number</a><br/>
-              <a href = "https://github.com/pbiswas101/Mathball/blob/master/src/isDeficient/index.js" target = "_blank" rel = "noreferrer noopener">Deficient Number</a><br/>
-              <a href = "https://github.com/pbiswas101/Mathball/blob/master/src/isFrugal/index.js" target = "_blank" rel = "noreferrer noopener">Frugal Number</a><br/>
+              <a href = "https://github.com/pbiswas101/Mathball/blob/master/src/armstrong/index.js" target = "_blank" rel = "noreferrer noopener">Complex Number</a><br/>
+              <a href = "https://github.com/pbiswas101/Mathball/tree/master/docs" target = "_blank" rel = "noreferrer noopener">Find nth Number</a><br/>
+              <a href = "https://github.com/pbiswas101/Mathball/tree/master/docs" target = "_blank" rel = "noreferrer noopener">Number Checker</a><br/>
+              <a href = "https://github.com/pbiswas101/Mathball/tree/master/docs" target = "_blank" rel = "noreferrer noopener">Range of Number</a>
+              </br>
             </p>
-            <a href="#Features Page" class="features-link">See all Number Checkers <i class="fas fa-angle-right"></i></a>
+            <a href="https://github.com/pbiswas101/Mathball/tree/master/docs" class="features-link" target = "_blank" rel = "noreferrer noopener">See all Numbers&#39; Problems <i class="fas fa-angle-right"></i></a>
           </div>
           </div>
         </div>
 
-        <div className = "sub-content col-lg-4  col-md-4 col-sm-12">
+        <div className = "sub-content col-lg-6  col-md-6 col-sm-12">
 
         <div class="card">
             <div class="card-header">
-              <b>Find nth Number</b>
+              <b>Helper Functions</b>
               </div>
           <div class="card-body">
           <p class="card-text">
-            <a href = "https://github.com/pbiswas101/Mathball/blob/master/src/bell/index.js" target = "_blank" rel = "noreferrer noopener">Bell Number</a><br/>
-            <a href = "https://github.com/pbiswas101/Mathball/blob/master/src/catalan/index.js" target = "_blank" rel = "noreferrer noopener">Catalan Number</a><br/>
-            <a href = "https://github.com/pbiswas101/Mathball/blob/master/src/factorial/index.js" target = "_blank" rel = "noreferrer noopener">Factorial of a Number</a><br/>
-            <a href = "https://github.com/pbiswas101/Mathball/blob/master/src/nCr/index.js" target = "_blank" rel = "noreferrer noopener">Combinations of a Number(nCr)</a><br/>
-            <a href = "https://github.com/pbiswas101/Mathball/blob/master/src/fibonacci/index.js" target = "_blank" rel = "noreferrer noopener">Fibonacci Number</a><br/>
-          </p>
-          <a href="#Features Page" class="features-link">See all nth Numbers <i class="fas fa-angle-right"></i></a>
+          <a href = "https://github.com/pbiswas101/Mathball/blob/master/src/performance/index.js" target = "_blank" rel = "noreferrer noopener">Performance</a><br/>
+          <a href = "https://github.com/pbiswas101/Mathball/blob/master/src/pipe/index.js" target = "_blank" rel = "noreferrer noopener">Pipe</a><br/>
+        </p>
+	       <a href="https://github.com/pbiswas101/Mathball/tree/master/docs" class="features-link" target = "_blank" rel = "noreferrer noopener">See all Helper Funtions <i class="fas fa-angle-right"></i></a>
         </div>
         </div>
         </div>
 
-        <div className = "sub-content col-lg-4  col-md-4 col-sm-12">
-        <div class="card">
-            <div class="card-header">
-              <b>Range of Numbers</b>
-              </div>
-          <div class="card-body">
-          <p class="card-text">
-            <a href = "https://github.com/pbiswas101/Mathball/blob/master/src/prime/index.js" target = "_blank" rel = "noreferrer noopener">rangePrime</a><br/>
-            <a href = "https://github.com/pbiswas101/Mathball/blob/master/src/fibonacci/index.js" target = "_blank" rel = "noreferrer noopener">rangeFibonacci</a><br/>
-            <a href = "https://github.com/pbiswas101/Mathball/blob/master/src/palindrome/index.js" target = "_blank" rel = "noreferrer noopener">rangePalindrome</a><br/>
-          </p>
-        </div>
-        </div>
-        </div>
       </div>
+
       <div className= "features row">
-        <div className = "sub-content  col-lg-4 col-md-4 col-sm-12">
+        <div className = "sub-content  col-lg-6 col-md-6 col-sm-12">
         <div class="card">
             <div class="card-header">
-              <b>Mathematical Utilities</b>
-          </div>
-      <div class="card-body">
-      <p class="card-text">
-        <a href = "https://github.com/pbiswas101/Mathball/blob/master/src/complex/index.js" target = "_blank" rel = "noreferrer noopener">Complex Numbers</a><br/>
-            <a href = "https://github.com/pbiswas101/Mathball/blob/master/src/frequency/index.js" target = "_blank" rel = "noreferrer noopener">Frequency of Number</a><br/>
-            <a href = "https://github.com/pbiswas101/Mathball/blob/master/src/gcd/index.js" target = "_blank" rel = "noreferrer noopener">Greatest Common Divisor(gcd)</a><br/>
-            <a href = "https://github.com/pbiswas101/Mathball/blob/master/src/isEven/index.js" target = "_blank" rel = "noreferrer noopener">Even Numbers</a><br/>
-            <a href = "https://github.com/pbiswas101/Mathball/blob/master/src/isOdd/index.js" target = "_blank" rel = "noreferrer noopener">Odd Numbers</a><br/>
+          <b>Core Tools</b>
+              </div>
+          <div class="card-body">
+          <p class="card-text">
+            <a href = "https://github.com/pbiswas101/Mathball/tree/master/docs" target = "_blank" rel = "noreferrer noopener">Absolute</a><br/>
+            <a href = "https://github.com/pbiswas101/Mathball/tree/master/docs" target = "_blank" rel = "noreferrer noopener">Add</a><br/>
+            <a href = "https://github.com/pbiswas101/Mathball/tree/master/docs" target = "_blank" rel = "noreferrer noopener">Average</a><br/>
+	    <a href = "https://github.com/pbiswas101/Mathball/tree/master/docs" target = "_blank" rel = "noreferrer noopener">Binomial Coefficient</a><br/>
+	   <a href = "https://github.com/pbiswas101/Mathball/tree/master/docs" target = "_blank" rel = "noreferrer noopener">Convert</a><br/>
+	   <a href = "https://github.com/pbiswas101/Mathball/tree/master/docs" target = "_blank" rel = "noreferrer noopener">Count</a><br/>
+	  <a href = "https://github.com/pbiswas101/Mathball/tree/master/docs" target = "_blank" rel = "noreferrer noopener">Divide</a><br/>
           </p>
-          <a href="#Features Page" class="features-link">See all Mathematical Utilities <i class="fas fa-angle-right"></i></a>
+          <a href="#Features Page" class="features-link" target = "_blank" rel = "noreferrer noopener">See all Core Tools <i class="fas fa-angle-right"></i></a>
         </div>
         </div>
       </div>
 
-      <div className = "sub-content col-lg-4  col-md-4 col-sm-12">
+      <div className = "sub-content col-lg-6  col-md-6 col-sm-12">
 
       <div class="card">
           <div class="card-header">
@@ -103,24 +89,17 @@ class MainContent extends Component {
         <div class="card-body">
         <p class="card-text">
           <a href = "https://github.com/pbiswas101/Mathball/blob/master/src/PriorityQueue/index.js" target = "_blank" rel = "noreferrer noopener">Priority Queue</a><br/>
+          <a href = "https://github.com/pbiswas101/Mathball/blob/master/src/PriorityQueue/index.js" target = "_blank" rel = "noreferrer noopener">Matrix</a>
+          <br/>
+       <a href = "https://github.com/pbiswas101/Mathball/blob/master/src/PriorityQueue/index.js" target = "_blank" rel = "noreferrer noopener">Stack</a><br/>
+	  <a href = "https://github.com/pbiswas101/Mathball/blob/master/src/PriorityQueue/index.js" target = "_blank" rel = "noreferrer noopener">Graph</a><br/>
+	  <a href = "https://github.com/pbiswas101/Mathball/blob/master/src/PriorityQueue/index.js" target = "_blank" rel = "noreferrer noopener">Binary Tree</a><br/>
         </p>
+	<a href="#Features Page" target = "_blank" rel = "noreferrer noopener" class="features-link">See all Data Structures <i class="fas fa-angle-right"></i></a>
       </div>
       </div>
       </div>
 
-      <div className = "sub-content col-lg-4  col-md-4 col-sm-12">
-      <div class="card">
-          <div class="card-header">
-            <b>Helper Methods</b>
-            </div>
-        <div class="card-body">
-        <p class="card-text">
-          <a href = "https://github.com/pbiswas101/Mathball/blob/master/src/performance/index.js" target = "_blank" rel = "noreferrer noopener">Performance</a><br/>
-          <a href = "https://github.com/pbiswas101/Mathball/blob/master/src/pipe/index.js" target = "_blank" rel = "noreferrer noopener">Pipe</a><br/>
-        </p>
-      </div>
-      </div>
-      </div>
     </div>
 </div>
 

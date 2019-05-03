@@ -2,31 +2,18 @@ import React, { Component } from "react";
 import logo from "../logo.png";
 import "../stylesheets/navbar.css";
 
-const styles= {
-  searchBar: {
-    position: "absolute",
-    zIndex: "2",
-    display: "block",
-    width: "2.375rem",
-    height: "2.375rem",
-    lineHeight: "2.375rem",
-    textAlign: "center",
-    pointerEvents: "none",
-    color: "#aaa",
-  },
-  addPadding: {
-    paddingLeft: "2.375rem",
-  },
-};
-
 class Navbar extends Component {
   render() {
     return (
       <nav className = "navbar navbar-expand-lg navbar-dark bg-dark">
-        <img src={logo} className="Header-App-logo d-none d-sm-none d-md-none d-lg-block" alt="header_logo" />
+	<img src={logo} className="Header-App-logo d-none d-sm-none d-md-none d-lg-block" alt="header_logo" />
+
         <a className = "navbar-brand" href="../public/index.html"> Mathball </a>
+
       <button className = " navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
       <span className = "navbar-toggler-icon"></span>
+
       </button>
 
       <div className = "collapse navbar-collapse" id="navbarSupportedContent">
@@ -45,14 +32,14 @@ class Navbar extends Component {
           </li>
           <li className = "nav-item">
           <div className="main d-none d-sm-none d-md-none d-lg-block">
-              <div className="form-group has-search" style = {[styles.searchBar, styles.addPadding]}>
-                <span className="fa fa-search form-control-feedback" style = {styles.searchBar}></span>
-                <input type="text" className="form-control" placeholder="Search" style = {styles.addPadding}/>
+              <div className="input-group has-search addPadding">
+                <span className="fa fa-search form-control-feedback searchBar"></span>
+                <input type="text" className="form-control addPadding" placeholder="Search"/>
               </div>
           </div>
       </li>
     </ul>
-    <ul className = "navbar-nav mr-auto justify-content-end">
+    <ul className = "navbar-nav ml-auto justify-content-end">
       <li className = "nav-item">
         <a className = "nav-link" href="#Version"> v0.3.1 </a>
       </li>
@@ -60,7 +47,7 @@ class Navbar extends Component {
         <a className = "nav-link" href="#Languages"> Languages </a>
       </li>
       <li className = "nav-item">
-        <a className = "nav-link" href="https://github.com/pbiswas101/Mathball" target = "_blank" rel = "noopener noreferrer"> Github  <i class="fas fa-external-link-alt"></i></a>
+        <a className = "nav-link" href="https://github.com/pbiswas101/Mathball" target = "_blank" rel = "noopener noreferrer"> Github  <i className="fas fa-external-link-alt"></i></a>
       </li>
     </ul>
   </div>
