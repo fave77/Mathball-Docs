@@ -17,7 +17,7 @@ blockquote{
   color: grey;
 }
 .card{
-  height: 270px;
+  height: 350px;
 }
 .card-text a{
   color: #d9703f;
@@ -37,3 +37,15 @@ blockquote{
   text-decoration: none;
 }
 /*main-content media queries */
+
+
+@media only screen and (min-width: 40.063em) {
+		.card{
+			height: 20em;
+	}
+}
+@media only screen and (min-width: 90.063em) {
+	.card{
+		height: 20em;
+	}
+}
