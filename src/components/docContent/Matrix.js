@@ -23,8 +23,7 @@ export default class Matrix extends Component {
 
 				<h3>Examples</h3>
 				<Highlight language="javascript" >
-					{
-`const x = new M.Matrix([ [1, 2], [3, 4] ]);`}
+					{"const x = new M.Matrix([ [1, 2], [3, 4] ]);"}
 				</Highlight>
 
 				<h3>Info</h3>

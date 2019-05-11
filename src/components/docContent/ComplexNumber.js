@@ -26,7 +26,7 @@ export default class ComplexNumber extends Component {
 
 				<h3>Examples</h3>
 				<Highlight language="javascript" >
-					{`const a = new M.Complex(3, 2);`}
+					{"const a = new M.Complex(3, 2);"}
 				</Highlight>
 
 				<h3>Info</h3>

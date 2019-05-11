@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Highlight from "react-highlight";
-import ";highlight.js/styles/github.css";
+import "highlight.js/styles/github.css";
 
 
 export default class FindnthNumber extends Component {

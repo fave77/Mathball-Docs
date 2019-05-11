@@ -38,7 +38,7 @@ class Docs extends Component {
 		const options = ["addition", "average", "binomial-coeff", "complex-number", "convert", "count", "divide",
 			"eulers-totient", "find-nth-number", "GCD", "graph", "LCM", "length", "matrix", "maximum", "median", "minimum",
 			"modular-inverse", "modular-exponent", "multiply", "number-checker", "performance", "permute", "pipe", "priority-queue",
-			"range-of-number", "set-bits", "sort", "stack", "subtract", "sum"]
+			"range-of-number", "set-bits", "sort", "stack", "subtract", "sum"];
 
     return (
       <div id="docs">
