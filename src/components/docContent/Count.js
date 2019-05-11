@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Highlight from 'react-highlight';
-import 'highlight.js/styles/github.css'
+import Highlight from "react-highlight";
+import "highlight.js/styles/github.css";
 
 
 export default class Count extends Component {
@@ -30,20 +30,20 @@ export default class Count extends Component {
 					{
 `/*Arrays*/
 M.count([1, 2, 3, 1, 2, 4, 5, 1], 1)   // 3
-M.count(['a', 'y', 'a', 'b', 'c', 'z', 'i'], 'a')   // 2
-M.count(['hello', 'world', 'lorem', 'ipsum', 'hello'], 'world');   // 1
-M.count(['hello', 5, 'lorem', 7, 'ipsum', 'hello'], 'world');   // 0
-M.count([true, 5, 'lorem', 7, 'ipsum', 'hello'], true);   // 1
+M.count(["a", "y", "a", "b", "c", "z", "i"], "a")   // 2
+M.count(["hello", "world", "lorem", "ipsum", "hello"], "world");   // 1
+M.count(["hello", 5, "lorem", 7, "ipsum", "hello"], "world");   // 0
+M.count([true, 5, "lorem", 7, "ipsum", "hello"], true);   // 1
 
 /*Strings*/
-M.count('banana', 'ana');   // 2
-M.count('banana', 'an');    // 2
-M.count('banana', 'a');     // 3
+M.count("banana", "ana");   // 2
+M.count("banana", "an");    // 2
+M.count("banana", "a");     // 3
 
 /*Objects*/
-M.count({'lorem': 'ipsum', 'hello': 'world'}, 'world');    // 1
-M.count({'foo': 'bar', 'spam': 'egg', 'lorem': 'bar'}, 'bar');   // 2
-M.count({'ipsum': [true, 1]}, [true, 1]);    // 1`}
+M.count({"lorem": "ipsum", "hello": "world"}, "world");    // 1
+M.count({"foo": "bar", "spam": "egg", "lorem": "bar"}, "bar");   // 2
+M.count({"ipsum": [true, 1]}, [true, 1]);    // 1`}
 				</Highlight>
 
 				<p><i>Invalid:</i></p>
@@ -51,7 +51,7 @@ M.count({'ipsum': [true, 1]}, [true, 1]);    // 1`}
 					{
 `/*
  * TypeError: Invalid argument received: <argument>
- * 'count()' only accept an Array, String or an Object!
+ * "count()" only accept an Array, String or an Object!
  */
 M.count();
 M.count(true);
@@ -59,12 +59,12 @@ M.count(23);
 
 /*
  * TypeError: Invalid argument received: <argument>
- * 'count()' doesnot accept more than 2 parameters!
+ * "count()" doesnot accept more than 2 parameters!
  */`}
 				</Highlight>
 
 				<h3>Info</h3>
-				<p><span>Implemented using JavaScript's built-in <b>filter</b>, <b>hasOwnProperty</b>, <b>indexOf</b>, <b>keys</b> functions.</span></p>
+				<p><span>Implemented using JavaScript"s built-in <b>filter</b>, <b>hasOwnProperty</b>, <b>indexOf</b>, <b>keys</b> functions.</span></p>
 
 			</div>
     );

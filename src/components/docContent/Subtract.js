@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Content from './Content';
+import Content from "./Content";
 
 const validCode=
 `M.sub(50, 29);    // 21
@@ -11,7 +11,7 @@ M.sub([[5, 3]], [[4, 1]]);     // [[1, 2]]
 //const a = new M.Complex(7, 3);
 //const b = new M.Complex(4, 6);
 
-M.sub(a,b);             // {re: 3, im: -3}`
+M.sub(a,b);             // {re: 3, im: -3}`;
 
 const inValidCode=
 `/*
@@ -57,7 +57,7 @@ M.sub(a, b, {p: 30, q: 40});
 
 /*Arrays*/
 M.sub([1,2,3,4,5], [1,2,3,4]);
-M.sub([[1]], [[1,2,3]]);`
+M.sub([[1]], [[1,2,3]]);`;
 
 
 export default class Subtract extends Component {
@@ -66,14 +66,14 @@ export default class Subtract extends Component {
 			<div className="tab-pane fade" id="subtract" role="tabpanel" aria-labelledby="subtract-tab">
 
 				<Content
-					title={'Subtract'}
-					description={`The <b>M.sub()</b> function returns the difference of two Numbers, Arrays, Strings, or Complex Objects.`}
-					syntax={['M.sub(value1, value2)']}
-					arguments={['Numbers', 'Strings', 'Arrays <Number> <Array>', 'Objects <Complex>']}
-					return={['Number (in case of number inputs)', 'String (in case of string inputs)', 'Array (in case of array inputs)', 'Object (in case of object inputs)']}
+					title={"Subtract"}
+					description={"The <b>M.sub()</b> function returns the difference of two Numbers, Arrays, Strings, or Complex Objects."}
+					syntax={["M.sub(value1, value2)"]}
+					arguments={["Numbers", "Strings", "Arrays <Number> <Array>", "Objects <Complex>"]}
+					return={["Number (in case of number inputs)", "String (in case of string inputs)", "Array (in case of array inputs)", "Object (in case of object inputs)"]}
 					validCode={validCode}
 					inValidCode={inValidCode}
-					info={`Implemented using JavaScript's built-in <b>reduce</b>, <b>forEach</b>, <b>toString</b>, <b>filter</b>, <b>map</b> function.`}
+					info={"Implemented using JavaScript's built-in <b>reduce</b>, <b>forEach</b>, <b>toString</b>, <b>filter</b>, <b>map</b> function."}
 				/>
 
 			</div>

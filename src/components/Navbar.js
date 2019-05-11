@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import logo from "../logo.png";
 import "../stylesheets/navbar.css";
-import { NavLink } from 'react-router-dom'
+import { NavLink } from "react-router-dom";
 
 class Navbar extends Component {
   render() {

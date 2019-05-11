@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Highlight from 'react-highlight';
-import 'highlight.js/styles/github.css'
+import Highlight from "react-highlight";
+import "highlight.js/styles/github.css";
 
 
 export default class Convert extends Component {
@@ -31,13 +31,13 @@ export default class Convert extends Component {
 				<p><i>Valid:</i></p>
 				<Highlight language="javascript" >
 					{
-`M.convert(60, {from: 'degree', to: 'radian'})   // 1.0471975511965976
- M.convert(1.0471975511965976, {from: 'radian', to: 'degree'})   // 59.99999999999999
- M.convert(180, {from: 'degree', to: 'radian'}, 0)   // 3.141592653589793
- M.convert(180, {from: 'degree', to: 'radian'}, 8)   // 3.14159265
- M.convert(1.309, {from: 'radian', to: 'degree'})   // 75.00017538262475
- M.convert(1.309, {from: 'radian', to: 'degree'}, 0)   // 75.00017538262475
- M.convert(1.309, {from: 'radian', to: 'degree'}, 6)   // 75.000175`}
+`M.convert(60, {from: "degree", to: "radian"})   // 1.0471975511965976
+ M.convert(1.0471975511965976, {from: "radian", to: "degree"})   // 59.99999999999999
+ M.convert(180, {from: "degree", to: "radian"}, 0)   // 3.141592653589793
+ M.convert(180, {from: "degree", to: "radian"}, 8)   // 3.14159265
+ M.convert(1.309, {from: "radian", to: "degree"})   // 75.00017538262475
+ M.convert(1.309, {from: "radian", to: "degree"}, 0)   // 75.00017538262475
+ M.convert(1.309, {from: "radian", to: "degree"}, 6)   // 75.000175`}
 				</Highlight>
 
 				<p><i>Invalid:</i></p>
@@ -45,10 +45,10 @@ export default class Convert extends Component {
 					{
 `/*
   * TypeError: Invalid argument received: <argument>
-  * 'convert()' only accept a number!
+  * "convert()" only accept a number!
   */
- M.convert("31", {from: 'degree', to: 'radian'});
- M.convert(true, {from: 'degree', to: 'radian'});
+ M.convert("31", {from: "degree", to: "radian"});
+ M.convert(true, {from: "degree", to: "radian"});
 
  /*
   * TypeError: Invalid argument received: <argument>
@@ -60,19 +60,19 @@ export default class Convert extends Component {
   * ReferenceError: Invalid argument received: <argument>
   * in convert() must contain to and from fields!
   */
- M.convert(180, {from: 'radian', an: 'degree'});
- M.convert(180, {a: 'radian', an: 'degree'}, 6);
+ M.convert(180, {from: "radian", an: "degree"});
+ M.convert(180, {a: "radian", an: "degree"}, 6);
 
  /*
   * TypeError: Invalid argument received: <argument>
-  * 'convert()' only accept a non-negative integer!
+  * "convert()" only accept a non-negative integer!
   */
- M.convert(31, {from: 'degree', to: 'radian'}, true);
- M.convert(60, {from: 'degree', to: 'radian'}, 'a');`}
+ M.convert(31, {from: "degree", to: "radian"}, true);
+ M.convert(60, {from: "degree", to: "radian"}, "a");`}
 				</Highlight>
 
 				<h3>Info</h3>
-				<p><span>Implemented using JavaScript's built-in <b>parseFloat</b>,<b>toFixed</b>,<b>hasOwnProperty</b> functions.</span></p>
+				<p><span>Implemented using JavaScript"s built-in <b>parseFloat</b>,<b>toFixed</b>,<b>hasOwnProperty</b> functions.</span></p>
 
 			</div>
     );

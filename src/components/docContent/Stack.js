@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Highlight from 'react-highlight';
-import 'highlight.js/styles/github.css'
+import Highlight from "react-highlight";
+import "highlight.js/styles/github.css";
 
 
 export default class Stack extends Component {
@@ -29,7 +29,7 @@ console.log(s);   // Stack { stack: [] }`}
 				</Highlight>
 
 				<h3>Info</h3>
-				<p>Implemented using JavaScript's built-in <b>class</b></p>
+				<p>Implemented using JavaScript"s built-in <b>class</b></p>
 
 				<h3>Methods</h3>
 				<ul>
@@ -68,7 +68,7 @@ s.push(30);`}
 					{
 `/*
 * TypeError: Invalid argument received: <argument>
-* 'Stack.push()' only accept a number!
+* "Stack.push()" only accept a number!
 */
 s.push("40");
 s.push("ten");
@@ -76,7 +76,7 @@ s.push([10,20]);`}
 				</Highlight>
 
 				<h3>Info</h3>
-				<p>Implemented using JavaScript's built-in <b>push</b> function.</p>
+				<p>Implemented using JavaScript"s built-in <b>push</b> function.</p>
 
 				<hr />
 
@@ -104,7 +104,7 @@ console.log(s.pop())   // 10`}
 				</Highlight>
 
 				<h3>Info</h3>
-				<p>Implemented using JavaScript's built-in <b>pop</b> function.</p>
+				<p>Implemented using JavaScript"s built-in <b>pop</b> function.</p>
 
 				<hr />
 
@@ -133,7 +133,7 @@ console.log(s1.isEmpty());   // true`}
 				</Highlight>
 
 				<h3>Info</h3>
-				<p>Implemented using JavaScript's built-in <b>size</b> function.</p>
+				<p>Implemented using JavaScript"s built-in <b>size</b> function.</p>
 
 				<hr />
 
@@ -165,7 +165,7 @@ console.log(s2.head());   // Empty Stack`}
 				</Highlight>
 
 				<h3>Info</h3>
-				<p>Implemented using JavaScript's built-in <b>size</b> function.</p>
+				<p>Implemented using JavaScript"s built-in <b>size</b> function.</p>
 
 				<hr />
 
@@ -192,7 +192,7 @@ console.log(s1.size());   // 0`}
 				</Highlight>
 
 				<h3>Info</h3>
-				<p>Implemented using JavaScript's built-in <b>size</b> function.</p>
+				<p>Implemented using JavaScript"s built-in <b>size</b> function.</p>
 
 				<hr />
 
@@ -217,7 +217,7 @@ console.log(s.size());   // 2`}
 				</Highlight>
 
 				<h3>Info</h3>
-				<p>Implemented using JavaScript's built-in <b>size</b> function.</p>
+				<p>Implemented using JavaScript"s built-in <b>size</b> function.</p>
 
 				<hr />
 
@@ -241,7 +241,7 @@ console.log(s.display());   // 30 20 10`}
 				</Highlight>
 
 				<h3>Info</h3>
-				<p>Implemented using JavaScript's built-in <b>reverse</b> and <b>join</b> function.</p>
+				<p>Implemented using JavaScript"s built-in <b>reverse</b> and <b>join</b> function.</p>
 
 			</div>
     );

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Highlight from 'react-highlight';
-import 'highlight.js/styles/github.css'
+import Highlight from "react-highlight";
+import "highlight.js/styles/github.css";
 
 
 export default class ComplexNumber extends Component {
@@ -30,7 +30,7 @@ export default class ComplexNumber extends Component {
 				</Highlight>
 
 				<h3>Info</h3>
-				<p>Implemented using JavaScript's built-in <b>class</b></p>
+				<p>Implemented using JavaScript"s built-in <b>class</b></p>
 
 				<h3>Properties</h3>
 				<ul>
@@ -60,7 +60,7 @@ export default class ComplexNumber extends Component {
 					{
 `/*
   * TypeError: Invalid argument received: <argument>
-  * 'Complex()'  only accepts an integer or an object
+  * "Complex()"  only accepts an integer or an object
   */
  M.Complex("4", "3");
  M.Complex([3]);
@@ -93,7 +93,7 @@ console.log(a.abs());     // 3.61`}
 				</Highlight>
 
 				<h3>Info:</h3>
-				<p>Implemented using JavaScript's built-in <b>parseFloat</b>, <b>sqrt</b>, <b>pow</b> functions.</p>
+				<p>Implemented using JavaScript"s built-in <b>parseFloat</b>, <b>sqrt</b>, <b>pow</b> functions.</p>
 
 				<hr />
 
@@ -128,14 +128,14 @@ console.log(add2.abs())     // 5.83`}
 					{
 `/*
   * TypeError: Invalid argument received: <argument>
-  * 'add()'  only accepts an integer or an object
+  * "add()"  only accepts an integer or an object
   */
  const add2 = a.add("5");
  const add2 = a.add([5]);`}
 				</Highlight>
 
 				<h3>Info:</h3>
-				<p>Implemented using JavaScript's built-in <b>isInteger</b> functions.</p>
+				<p>Implemented using JavaScript"s built-in <b>isInteger</b> functions.</p>
 
 				<hr />
 
@@ -170,14 +170,14 @@ console.log(sub2.abs())     // 1.41`}
 					{
 `/*
   * TypeError: Invalid argument received: <argument>
-  * 'sub()'  only accepts an integer or an object
+  * "sub()"  only accepts an integer or an object
   */
  const sub2 = a.sub("5");
  const sub2 = a.sub([5]);`}
 				</Highlight>
 
 				<h3>Info:</h3>
-				<p>Implemented using JavaScript's built-in <b>isInteger</b> functions.</p>
+				<p>Implemented using JavaScript"s built-in <b>isInteger</b> functions.</p>
 
 				<hr />
 
@@ -213,14 +213,14 @@ console.log(mul2.abs())     // 8.06`}
 					{
 `/*
   * TypeError: Invalid argument received: <argument>
-  * 'multiply()'  only accepts an integer or an object
+  * "multiply()"  only accepts an integer or an object
   */
  const mul2 = a.multiply("5");
  const mul2 = a.multiply([5]);`}
 				</Highlight>
 
 				<h3>Info:</h3>
-				<p>Implemented using JavaScript's built-in <b>isInteger</b> functions.</p>
+				<p>Implemented using JavaScript"s built-in <b>isInteger</b> functions.</p>
 
 				<hr />
 
@@ -256,14 +256,14 @@ console.log(div2.abs())     // 1.61`}
 					{
 `/*
   * TypeError: Invalid argument received: <argument>
-  * 'divide()'  only accepts an integer or an object
+  * "divide()"  only accepts an integer or an object
   */
  const div2 = a.divide("5");
  const div2 = a.divide([5]);`}
 				</Highlight>
 
 				<h3>Info:</h3>
-				<p>Implemented using JavaScript's built-in <b>isInteger</b> functions.</p>
+				<p>Implemented using JavaScript"s built-in <b>isInteger</b> functions.</p>
 
 			</div>
     );

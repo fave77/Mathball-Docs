@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import Content from './Content';
+import Content from "./Content";
 
 const validCode=
 `M.avg([1, 0, 5, 6]);   // 3
-M.avg([8, 7]);         // 7.5`
+M.avg([8, 7]);         // 7.5`;
 
 const inValidCode=
 ` /*
@@ -12,7 +12,7 @@ const inValidCode=
 */
 M.avg(1, 2);
 M.avg([NaN, 5, Infinity]);
-M.avg(['foo', 'bar']);`
+M.avg(['foo', 'bar']);`;
 
 
 export default class ModularExponent extends Component {
