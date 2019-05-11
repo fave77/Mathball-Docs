@@ -1,32 +1,29 @@
 import React, { Component } from "react";
 import ErrorBoundary from "./ErrorBoundary";
 import Navbar from "./Navbar";
-import Header from "./Header";
+import Docs from "./Docs";
 import MainContent from "./Main-Content";
 import Footer from "./Footer";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+			<Router>
+				<div className="App">
+					<ErrorBoundary>
+						<Navbar/>
 
-    <ErrorBoundary>
-        <Navbar/>
-    </ErrorBoundary>
+						<Switch>
+							<Route exact path="/" component={MainContent}/>
+							<Route path="/docs" component={Docs}/>
+						</Switch>
 
-    <ErrorBoundary>
-        <Header/>
-    </ErrorBoundary>
-
-    <ErrorBoundary>
-        <MainContent/>
-    </ErrorBoundary>
-
-    <ErrorBoundary>
-        <Footer/>
-    </ErrorBoundary>
-
-      </div>
+						<Footer/>
+					</ErrorBoundary>
+				</div>
+			</Router>
     );
   }
 }

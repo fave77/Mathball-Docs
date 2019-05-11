@@ -1,14 +1,15 @@
 import React, { Component } from "react";
 import logo from "../logo.png";
 import "../stylesheets/navbar.css";
+import { NavLink } from 'react-router-dom'
 
 class Navbar extends Component {
   render() {
     return (
       <nav className = "navbar navbar-expand-lg navbar-dark bg-dark">
-	<img src={logo} className="Header-App-logo d-none d-sm-none d-md-none d-lg-block" alt="header_logo" />
+				<img src={logo} className="Header-App-logo d-none d-sm-none d-md-none d-lg-block" alt="header_logo" />
 
-        <a className = "navbar-brand" href="../public/index.html"> Mathball </a>
+				<NavLink to="/" className="navbar-brand">Mathball</NavLink>
 
       <button className = " navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 
@@ -19,16 +20,16 @@ class Navbar extends Component {
       <div className = "collapse navbar-collapse" id="navbarSupportedContent">
         <ul className = "navbar-nav mr-auto">
           <li className = "nav-item">
-            <a className = "nav-link" href="#Documentation"> Docs </a>
+						<NavLink to="/docs" className = "nav-link">Docs</NavLink>
           </li>
           <li className = "nav-item">
-            <a className = "nav-link" href="#Tutorial"> Tutorial </a>
+						<NavLink to="/tutorial" className = "nav-link">Tutorial</NavLink>
           </li>
           <li className = "nav-item">
             <a className = "nav-link" href="https://medium.freecodecamp.org/how-to-get-started-with-competitive-programming-in-javascript-76ad2e760efe"> Blog </a>
           </li>
           <li className = "nav-item">
-            <a className = "nav-link" href="#Community"> Community </a>
+						<NavLink to="/community" className = "nav-link">Community</NavLink>
           </li>
           <li className = "nav-item">
           <div className="main d-none d-sm-none d-md-none d-lg-block">
