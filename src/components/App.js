@@ -17,7 +17,8 @@ class App extends Component {
 
 						<Switch>
 							<Route exact path="/" component={MainContent}/>
-							<Route path="/docs" component={Docs}/>
+							<Route exact path="/Mathball-Docs/" component={MainContent}/>
+							<Route path="/Mathball-Docs/docs" component={Docs}/>
 						</Switch>
 
 						<Footer/>
