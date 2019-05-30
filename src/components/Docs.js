@@ -18,7 +18,7 @@ import Maximum from "./docContent/Maximum";
 import Median from "./docContent/Median";
 import Minimum from "./docContent/Minimum";
 /*import ModularInverse from "./docContent/ModularInverse";*/
-import ModularExponent from "./docContent/ModularExponent";
+/*import ModularExponent from "./docContent/ModularExponent";*/
 import Multiply from "./docContent/Multiply";
 import NumberChecker from "./docContent/NumberChecker";
 /*import Performance from "./docContent/Performance";*/
@@ -37,7 +37,7 @@ class Docs extends Component {
   render() {
 		const options = ["addition", "average", "binomial-coeff", "complex-number", "convert", "count", "divide",
 			"eulers-totient", "find-nth-number", "GCD", "graph", "LCM", "length", "matrix", "maximum", "median", "minimum",
-			/*"modular-inverse",*/ "modular-exponent", "multiply", "number-checker", /*"performance", */"permute", /*"pipe", "priority-queue",*/
+			/*"modular-inverse","modular-exponent",*/ "multiply", "number-checker", /*"performance", */"permute", /*"pipe", "priority-queue",*/
 			"range-of-number", "set-bits", "sort", "stack", "subtract", "sum"];
 
     return (
@@ -81,7 +81,7 @@ class Docs extends Component {
 						<Median />
 						<Minimum />
 						{/*<ModularInverse />*/}
-						<ModularExponent />
+						{/*<ModularExponent />*/}
 						<Multiply />
 						<NumberChecker />
 						{/*<Performance />*/}
