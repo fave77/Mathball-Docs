@@ -35,7 +35,7 @@ class MainContent extends Component {
 									</div>
 								<div class="card-body">
 									<p class="card-text">
-										<a href = "https://github.com/pbiswas101/Mathball/blob/master/src/armstrong/index.js" target = "_blank" rel = "noreferrer noopener">Complex Number</a><br/>
+										<a href = "https://github.com/pbiswas101/Mathball/tree/master/docs" target = "_blank" rel = "noreferrer noopener">Complex Number</a><br/>
 										<a href = "https://github.com/pbiswas101/Mathball/tree/master/docs" target = "_blank" rel = "noreferrer noopener">Find nth Number</a><br/>
 										<a href = "https://github.com/pbiswas101/Mathball/tree/master/docs" target = "_blank" rel = "noreferrer noopener">Number Checker</a><br/>
 										<a href = "https://github.com/pbiswas101/Mathball/tree/master/docs" target = "_blank" rel = "noreferrer noopener">Range of Number</a><br/>
